@@ -1,0 +1,329 @@
+@font-face {
+	font-family: 'Arimo-Bold';
+	src: url('fonts/Arimo-Bold/Arimo-Bold.eot');
+	src: url('fonts/Arimo-Bold/Arimo-Bold.woff') format('woff'), url('fonts/Arimo-Bold/Arimo-Bold.ttf') format('truetype'), url('fonts/Arimo-Bold/Arimo-Bold.svg') format('svg');
+}
+@font-face {
+	font-family: 'ChangaOne';
+	src: url('fonts/ChangaOne/ChangaOne-Regular.eot');
+	src: url('fonts/ChangaOne/ChangaOne-Regular.woff') format('woff'), url('../fonts/ChangaOne/ChangaOne-Regular.ttf') format('truetype'), url('../fonts/ChangaOne/ChangaOne-Regular.svg') format('svg');
+}
+@font-face {
+	font-family: 'Comfortaa-Regular';
+	src: url('fonts/Comfortaa/Comfortaa-Regular.eot');
+	src: url('fonts/Comfortaa/Comfortaa-Regular.woff') format('woff'), url('fonts/Comfortaa/Comfortaa-Regular.ttf') format('truetype'), url('fonts/Comfortaa/Comfortaa-Regular.svg') format('svg');
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #ededed;
+	font-family: Arial, Helvetica, Sans-Serif;
+	line-height: 1;
+}
+
+.Header{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background-color: #4c8f96;
+	height: 180px;
+	margin: 0 auto;
+	margin-left: auto; 
+	margin-right: auto;
+	padding-right: -5px;
+	overflow: hidden;
+}
+.Header--logo{
+	margin-left: 490px;
+	margin-top: 55px;
+	width: 265px;
+	float: left;
+}
+.Header--Nav{
+	float: left;
+	text-align: center;
+	list-style-type: none;
+}
+.Header--Nav li{
+	float: left;
+	list-style-type: none;
+	margin-left: 20px;
+	margin-right: 0.7px;
+	margin-top: 100px;
+	color: white;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-weight: lighter;
+	text-transform: Uppercase;
+}
+.Header--Nav li:not(.Header--Nav__selected){
+	background-color: #1b2130;
+	padding: 5px 20px;
+	border-radius: 5px;
+	text-align: center;
+}
+.Header--Nav__selected{
+	background-color: #335f64;
+	padding: 5px 20px;
+	border-radius: 5px;
+	text-align: center;
+}
+.Header--Nav li:hover{
+	color:#ccc;
+}
+.Image{
+	clear: left;
+	position: relative;
+	left:490px;
+	top:50px;
+	height: 356px;
+	border: 2px solid #5fb3bd;
+	width: 933px; 
+	background: #fff;
+}
+.Image img{
+	float: left;
+	height: 356px;
+	padding-right: 20px;
+}
+.Image--description h1{
+	float: left;
+	display: inline;
+	font-family: 'ChangaOne';
+	font-weight: normal;
+	font-size: 40px;
+	padding-top: 75px;
+	line-height: 50px;
+}
+.Sections{
+	position: relative;
+	left: 490px;
+	top: 100px;
+	width: 956px;
+	
+}
+.Sections--Sections__1, 
+.Sections--Sections__2, 
+.Sections--Sections__3,
+.Sections--Sections__4{
+	float: left;
+	width: 234px;
+	margin-right: 5px;
+}
+.Sections p{
+	font-weight: lighter;
+	font-size: 12px;
+	line-height: 24px;
+	margin-right: 10px;
+	width: 230px;
+}
+.Sections img{
+	border: #5fb3bd 5px solid;
+}
+
+.Sections span{
+	font-weight: normal;
+	font-size: 18px;
+	text-align: left;
+}
+.Featured{
+	clear: both;
+	float: left;
+	position: relative;
+	top: 140px;
+	left: 490px;
+	border: #5fb3bd 5px solid;
+	background-color: #fff;
+	border-radius: 5px;
+	width: 450px;
+	min-height: 579px;
+}
+
+.Featured h2{
+	background-color: #1b2130;
+	color: #fff;
+	width: 75px;
+	margin-top: -14px;
+	margin-left: 15px;
+	margin-bottom: 25px;
+	padding-left: 30px;
+	padding-right: 50px;
+	line-height: 47px;
+	font-family: 'Comfortaa-Regular';
+	font-weight: lighter;
+	font-size: 22px;
+}
+.Featured h3{
+	float: left;
+	margin-top: -1px;
+	margin-left: 30px; 
+	font-weight: normal;
+	font-size: 18px;
+	text-align: left;
+}
+.Featured p{
+	clear: both;
+	width: 420px;
+	font-weight: lighter;
+	font-size: 12px;
+	line-height: 24px;
+	margin-right: 10px;
+}
+.Featured--Image{
+	float: left;
+	margin-left: 15px;
+	margin-right: 0px;
+	margin-bottom: 25px;
+}
+.Featured--Article{
+	margin-left: 15px;
+}
+.Featured--Article span{
+	margin-left: 15px;
+}
+.Sections{
+	float: left;
+	overflow: hidden;
+}
+ .Sections--Hairstyle{
+	position: relative;
+	top: 40px;
+	left: 15px;
+	border: #5fb3bd 5px solid;
+	background-color: #4c8f96;
+	border-radius: 5px;
+	width: 460px;
+	min-height: 250px;
+}
+.Sections--Hairstyle h2{
+	background-color: #1b2130;
+	color: #fff;
+	width: 75px;
+	margin-top: -14px;
+	margin-left: 15px;
+	padding-left: 30px;
+	padding-right: 50px;
+	line-height: 47px;
+	font-family: 'Comfortaa-Regular';
+	font-weight: lighter;
+	font-size: 22px;
+}
+.Sections--Hairstyle p{
+	clear: both;
+	width: 420px;
+	font-weight: lighter;
+	font-size: 12px;
+	line-height: 24px;
+	margin-right: 0px;
+	margin-left: 15px;
+	color: #f5f5f5;
+} 
+.Name{
+	text-decoration: none;
+	color: #f5f5f5;
+}
+.Sections--Hairstyle .Name1{
+	margin-left: 357px;
+	font-size: 20px;
+	padding-top: 19px;
+	padding-bottom: -10px;
+}
+
+.Sections--Hairstyle a:not(.Name){
+	text-decoration: none;
+	text-decoration: underline;
+	color: #f5f5f5;
+}
+.Sections--Newsletter{
+	position: relative;
+	top: 40px;
+	left: 15px;
+	border: #5fb3bd 5px solid;
+	background-color: #4c8f96;
+	border-radius: 5px;
+	width: 460px;
+	min-height: 225px;
+	margin-top: 40px;
+	margin-bottom: 250px;
+}
+.Sections--Newsletter p{
+	float: left;
+	width: 250px;
+	line-height: 27px;
+}
+.Sections--Newsletter img{
+	position: relative;
+	bottom: 12px;
+	float: left;
+	border: none;
+	height: 245px;
+	padding-bottom: 20px;
+}
+.Sections--Newsletter p{
+	float: left;
+	border: none;
+	font-size: 17.25px;
+	line-height: 30px;
+	color: #f5f5f5;
+	font-weight: bold;
+	width: 230px;
+	padding-top: 16px;
+	padding-left: 24.43px;
+}
+
+.Footer {
+	clear: left;
+	background: #4c8f96;
+	border-top: 1px solid #9bd9e0;
+	height: 145px;
+	overflow: hidden;
+	margin-bottom: -10px;
+
+}
+
+.Footer > div {
+	margin: 0 auto;
+	width: 960px;
+	color: #ededed;
+	font-size: 12px;
+	padding-top: 60px;
+	text-align: center;
+}
+.Footer p{
+	float: left;
+	margin-left: 230px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.Footer ul{
+	list-style-type: none;
+	float: right;
+	background-color: #387a82;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: -50px;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: -30px;
+	height: 50px;
+
+}
+.Footer li{
+	display: inline;
+	list-style-type: none;
+	overflow: hidden;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.Footer--connect{
+	float: left;
+	display: inline;
+	overflow: hidden;
+}
+
+
